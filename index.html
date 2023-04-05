@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img class=" object-fill h-16 w-16" src="logo.png">
+                <span class="ml-3 text-xl ">pickNpark</span>
+            </a>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <a href="#about" class="mr-5 hover:text-gray-900 ">About Us</a>
+                <a href="#fees" class="mr-5 hover:text-gray-900">Our Charges</a>
+                <a href="#booking" class="mr-5 hover:text-gray-900">Booking</a>
+                <a href="#contact" class="mr-5 hover:text-gray-900">Contact Us</a>
+            </nav>
+            <a href="#Membership">
+                <button
+                    class="inline-flex items-center py-2 px-5 bg-gray-100 border-0  focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Membership
+
+                </button></a>
+        </div>
+    </header>
+    <section class="content-center">
+        <div class="bg-image flex justify-center items-center">
+            <p class="text-8xl font-bold mt-4 text-white"> Welcome to pickNpark</p>
+        </div>
+
+    </section>
+    <section class="text-black-600 body-font" id="about">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black-900 text-center"> About us</h1>
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Our Mission:
+                </h1>
+                <p class="mb-8 leading-relaxed"> To be the world’s best Parking Solutions provider and to shape the
+                    future of Parking Services by
+                    unprecedented value and opportunity for our customers, investors, and partners.</p>
+            </div>
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-4xl mb-4 font-medium text-gray-900">Our Vision:
+                </h1>
+                <p class="mb-8 leading-relaxed"> PickNPark leads the way to improve Car Parking experience by using our
+                    unlimited passion for
+                    technology, content and services to deliver groundbreaking Parking Solutions.</p>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="./assets/images/about.png">
+            </div>
+        </div>
+    </section>
+    <section id="fees">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black-900 text-center"> Parking Charges</h1>
+        <div class="flex justify-center">
+            <table id="timing">
+                <thead>
+                    <tr>
+                        <th>Timing</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>upto 30 min</td>
+                        <td>70 Rs.</td>
+                    </tr>
+                    <tr>
+                        <td>upto 2 Hours</td>
+                        <td>150 Rs.</td>
+                    </tr>
+                    <tr>
+                        <td>Additional Every 2 Hours</td>
+                        <td>50 Rs. </td>
+                    </tr>
+                    <tr>
+                        <td>upto 24 Hours</td>
+                        <td>599</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section id="booking" class="p-10">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black-900 text-center"> How to Book slot?</h1>
+        <div class="p-homepage__steps-control mt-5 d-lg-block d-none">
+            <div class="p-homepage__steps-control-row">
+                <div class="p-homepage__steps-control-step pl-5">
+                    <p class="p-homepage__steps-control-step-circle">1</p>
+                    <p class="p-homepage__steps-control-step-text">
+                        Search parking spaces<span class="secondary-action-text">.</span>
+                    </p>
+                </div>
+                <div class="p-homepage__steps-control-step">
+                    <p class="p-homepage__steps-control-step-circle">2</p>
+                    <p class="p-homepage__steps-control-step-text">
+                        Check Slot Availablity<span class="secondary-action-text">.</span>
+                    </p>
+                </div>
+                <div class="p-homepage__steps-control-step">
+                    <p class="p-homepage__steps-control-step-circle">3</p>
+                    <p class="p-homepage__steps-control-step-text">
+                        Fill Details<span class="secondary-action-text">.</span>
+                    </p>
+                    <p class="p-homepage__steps-control-step-text">and Book your slot!</p>
+                </div>
+                <div class="p-homepage__steps-control-step last-step">
+                    <p class="p-homepage__steps-control-step-circle">4</p>
+                    <p class="p-homepage__steps-control-step-text">You're done!</p>
+                    <p class="p-homepage__steps-control-step-text">Wasn't that easy?</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="text-black-600 body-font" id="about">
+        <form>
+            <label for="place">Select a place:</label>
+            <select id="place" name="place">
+                <option value="place1">C.G. Road</option>
+                <option value="place2">Iscon</option>
+                <option value="place3">PrahladNagar</option>
+                <option value="place4">Vadaj</option>
+                <option value="place5">ManiNagar</option>
+            </select>
+
+            <fieldset>
+                <legend><b> Availability</legend></b>
+                <label for="slot1"><input type="checkbox" name="slot" id="slot1" value="slot1" checked disabled> Slot
+                    1</label><br>
+                <label for="slot2"><input type="checkbox" name="slot" id="slot2" value="slot2"> Slot 2</label><br>
+                <label for="slot3"><input type="checkbox" name="slot" id="slot3" value="slot3"> Slot 3</label><br>
+                <label for="slot4"><input type="checkbox" name="slot" id="slot4" value="slot4" checked disabled> Slot
+                    4</label><br>
+                <label for="slot5"><input type="checkbox" name="slot" id="slot5" value="slot5"> Slot 5</label><br>
+            </fieldset>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address"><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="vehicle">Vehicle Number:</label>
+            <input type="text" id="vehicle" name="vehicle"><br>
+
+            <label for="payment">Payment Option:</label>
+            <select id="payment" name="payment">
+                <option value="credit">Credit Card</option>
+                <option value="debit">Debit Card</option>
+                <option value="paypal">Cash only</option>
+            </select><br>
+
+            <button type="submit">Book Slot</button>
+        </form>
+
+    </section>
+    <section id="Advance" class="p-10">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black-900 text-center"> Advance Booking</h1>
+        <div class="advance-image flex justify-center items-center">
+            <p class="text-8xl font-bold mt-4 text-orange-300"> Coming Soon!!!</p>
+        </div>
+    </section>
+
+    </footer>
+    <section class="text-black-600 body-font overflow-hidden " id="Membership">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Membership</h1>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 xl:w-1/2 md:w-1/2 w-full">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                        <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Silver</h2>
+                        <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">4500/-Rs
+                            <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                        </h1>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>only one car
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>no time limit
+                        </p>
+
+                        <button
+                            class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="p-4 xl:w-1/2 md:w-1/2 w-full">
+                    <div
+                        class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
+                        <span
+                            class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+                        <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Gold</h2>
+                        <h1
+                            class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                            <span>9,000/-Rs</span>
+                            <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                        </h1>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>Three Car
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>no time limit
+                        </p>
+                        <p class="flex items-center text-gray-600 mb-2">
+                            <span
+                                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </span>also car Washing
+                        </p>
+
+                        <button
+                            class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Button
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black-900 text-center"> Contact Us</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div id="address">
+            <b>
+                <h3>Our Address</h3>
+            </b>
+            <p>16 The Nikol Trade center <br>Nikol, Ahemadabad 382350</p>
+            <p>Phone: 18008001488<br>Email: info@picknpark.com</p>
+        </div>
+    </section>
+    <footer class="text-gray-600 body-font bg-gray-500">
+        <div class="bg-gray-300">
+            <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <img class=" object-fill h-16 w-16" src="logo.png">
+                    <span class="ml-3 text-xl">pickNpark</span>
+                </a>
+                <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2023 pickNpark
+
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                    <a class="text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+
+</body>
+
+</html>
